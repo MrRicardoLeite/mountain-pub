@@ -1,0 +1,54 @@
+/* Desktop */
+@media (max-width: 1280px){
+    body{
+        padding: 0 40px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px){
+    .information{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .information .description{
+        width: 60%;
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 425px){
+    .information .logo{
+        max-width: 280px;
+    }
+
+    .information .description{
+        width: 90%;
+        line-height: 1.2;
+    }
+
+    .side-menu{
+        position: static;
+        min-height: auto;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .side-menu ul{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .content{
+        min-height: 70vh;
+        gap: 40px;
+
+    }
+
+    body{
+        padding: 40px;
+    }
+}
